@@ -5,7 +5,7 @@ var spokane ='99201'
 
 $(document).ready(function() {
   $.simpleWeather({
-    location: 'spokane',
+    location: 'seattle',
     woeid: '',
     unit: 'f',
 
@@ -15,6 +15,8 @@ $(document).ready(function() {
       $('.temp').text(weather.temp)
       $('.current').text(weather.currently)
       $('.header').text(weather.city)
+      $('.low').text(weather.low)
+      $('.high').text(weather.high)
       //html += '<ul><li>'+weather.city+', '+weather.region+'</li>';
       //html += '<li class="currently">'+weather.currently+'</li>';
      // html += '<li>'+weather.wind.direction+' '+weather.wind.speed+' '+weather.units.speed+'</li></ul>';
