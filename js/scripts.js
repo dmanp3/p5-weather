@@ -17,6 +17,8 @@ $(document).ready(function() {
       $('.header').text(weather.city)
       $('.low').text(weather.low)
       $('.high').text(weather.high)
+      $('.now').text(weather.forecast[1].date)
+      
       //html += '<ul><li>'+weather.city+', '+weather.region+'</li>';
       //html += '<li class="currently">'+weather.currently+'</li>';
      // html += '<li>'+weather.wind.direction+' '+weather.wind.speed+' '+weather.units.speed+'</li></ul>';
