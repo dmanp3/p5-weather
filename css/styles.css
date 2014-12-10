@@ -1,40 +1,69 @@
 
+body {
+	 background:url(../img/seattle2.jpg) no-repeat; 
+            }
+
 h1.header {
 	font-size: 100px;
 	text-transform: uppercase;
 	font-family: 'Raleway', sans-serif;
-	background-color: #72A69C;
+	
 	/*letter-spacing:50px;*/
 	border-radius:10px;
 	text-align:center;	
 }
 
 p.temp {
-	font-size: 200px;
+	font-size: 100px;
+	
+	
+	
+}
+p.low {
+	
+	font-size:100px;
+	
 	text-align: center;
-
+}
+p.high {
+	
+	font-size:100px;
+	
+	text-align: center;
 }
 
-p.current {
+p {
 	
+	
+	font-size:50px;
+	text-align: center;
+	
+}
+h2 {
+	text-align:center;
+}
+h2.time {
+text-align: center;
+
+}
+.ui.divider {
+	background-color:#1D1F1F;
+
 }
 
 .eight.wide.column.tempature {
 	/*height:300px;*/
-	border: solid;
+	
 border-radius: 10px;
 }
-.four.wide.column.high	{
-font-size:100px;
 
+.two.wide.column {
+	background-color:226, 226, 229;
 }
-.four.wide.column.low {
-	font-size:100px;
-	
-}
+ 
 
 
-.eight.wide.column.diddy {
+/* .eight.wide.column.diddy {
 background-color: #D94141;
 font-size: 47px;
 text-align:justify;
