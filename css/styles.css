@@ -1,15 +1,15 @@
 
 body {
-	 background:url(../img/seattle2.jpg) no-repeat; 
+	 background:url(../img/seattle2.jpg) ; 
             }
 
 h1.header {
 	font-size: 100px;
 	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
-	
+	/*font-family: 'Raleway', sans-serif;*/
+	font-family: 'Amatic SC', cursive;
 	/*letter-spacing:50px;*/
-	border-radius:10px;
+	
 	text-align:center;	
 }
 
@@ -34,54 +34,76 @@ p.high {
 
 p {
 	
-	
+	font-family: 'Amatic SC', cursive;
 	font-size:50px;
 	text-align: center;
+	background-color:rgba(255, 253, 234, .5);
+	border:solid;
+	border-radius:50px;
 	
 }
 h2 {
 	text-align:center;
+	font-family: 'Amatic SC', cursive;
+	font-size:70px;
 }
 h2.time {
 text-align: center;
-
+font-size:60px;
 }
 .ui.divider {
 	background-color:#1D1F1F;
 
 }
 
+.ui.divider.one {
+	position:relative;
+	top:40px;
+
+}
+
+.ui.divider.two {
+	position:relative;
+	top:25px;
+
+}
+.two.wide.column {
+	position:relative;
+	top:10px;
+}
 .eight.wide.column.tempature {
 	/*height:300px;*/
 	
 border-radius: 10px;
 }
 
-.two.wide.column {
-	background-color:226, 226, 229;
-}
- 
-
-
-/* .eight.wide.column.diddy {
-background-color: #D94141;
-font-size: 47px;
-text-align:justify;
-text-transform: uppercase;
-color: #D99C9C;
-border-radius: 10px;
-}
-
-
-body {
-	background-color: ;
-
-
+.suntwo {
+	position:relative;
+	top:40px;
 }
 
 
 
+.eight.wide.column.diddy {
+font-size: 100px;
+}
 
+.diddy {
+	font-size:70px;
+	font-family: 'Amatic SC', cursive;
+background-color:rgba(255, 253, 234, .5);
+}
+
+
+.sun {
+	width:240px;
+}
+
+.moon {
+	width:100px;
+	position:relative;
+	left:70px;
+}
 /** media quuries **/
 /* Mobile */
 /*@media screen and (max-width: 320px) {
